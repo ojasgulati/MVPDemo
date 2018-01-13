@@ -15,7 +15,7 @@ SignInImplementation signIn;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         signIn = new SignInImplementation(this);
-        signIn.SignIn("ojasgulat","password");
+        signIn.SignIn("ojasgulati","password");
     }
 
     @Override
